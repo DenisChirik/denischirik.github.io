@@ -1,5 +1,5 @@
 body {
-    /* BEGIN (write your solution here) */
+   
   margin: 0;
   font-size: 18px;
   color: #333;
@@ -7,7 +7,7 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
 }
-/* BEGIN (write your solution here) */
+
 h1 {
 
   margin-top: 50px;
@@ -15,7 +15,7 @@ h1 {
   font-size:  60px;
   text-align: center;
 }
-/* END */
+
 
 h2 {
  
@@ -31,7 +31,7 @@ main {
   margin: auto;
 }
 
-/* BEGIN (write your solution here) */
+
 section {
 
   margin-top: 50px;
@@ -60,4 +60,4 @@ li {
 }
 
 
-/* END */
+
