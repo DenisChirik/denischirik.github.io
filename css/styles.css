@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,regular 600&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010208;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1245px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.header {
+  padding: 35px 0;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header_logo {
+}
+.header_menu {
+}
+.menu_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;;
+}
+.menu_link:hover  {
+  background: linear-gradient(99.05deg, #5272ff 0.07%, #3754d6 106.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  }
+.menu_link {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #E3E4E6;
+  text-decoration: none;
+  position: relative;
+}
+.menu_link::before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #5272ff;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.menu_link:hover::before {
+  opacity: 1;
+  visibility: visible;
+  }
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .hero_title {
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(227, 228, 230, 0.55);
+    text-align: center;
+    
+  }
+  .hero_title span {
+    font-weight: 600;
+    color: #E3E4E6;
+
+  }
+  .hero_arrow {
+    background: transparent url(../img/Vector.svg)center center no-repeat;
+    border: none;
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    left: 50%;
+    bottom: 42px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .clients {
+    padding-top: 80px;
+    padding-bottom: 130px;
+
+  }
+  .container {
+  }
+  .clients_title {
+    max-width: 520px;
+    font-weight: 600;
+    font-size: 40px;
+    font-size: 40px;
+    line-height: 150%;
+    color: #E3E4E6;
+
+  }
+  .clients_title span {
+  font-weight: 300;
+    color: rgba(227, 228, 230, 0.55);
+
+  }
+  .clients_body {
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .clients_item {
+  }
+
+  .works {
+    padding: 80px 0 120px;
+  }
+  
+  .works_container {
+  }
+  .works_title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 150%;
+    color: rgba(227, 228, 230, 0.55);
+  }
+  .works_title span {
+    font-weight: 600;
+    color: #E3E4E6;
+  }
+
+  .works_body {
+  }
+  .works_card {
+    margin-top: 95px;
+  }
+  .card {
+    display: flex;
+    gap: 32px;
+  }
+  .card_img {
+    border-radius: 16px;
+    overflow: hidden;
+    flex: 0 0 50%;
+  }
+  .card_img img {
+    max-width: 100%;
+  }
+  .card_info {
+    flex: 1 1 auto;
+    align-self: flex-end;
+  }
+  .card_tag {
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #E3E4E6;
+    margin-bottom: 16px;
+  }
+  .card_text {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    color: rgba(227, 228, 230, 0.55);
+    margin-bottom: 24px;
+  }
+  .card_text span {
+    font-weight: 600;
+    color: #E3E4E6;
+  }
+  .card_category {
+    font-weight: 300;
+    color: #E3E4E6;
+  }
+  .card_button {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 8px 48px 8px 16px;
+    border: 1px solid rgba(227, 228, 230, 0.55); 
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+  .card_button::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    background: transparent url('../img/Vector_right.svg') center center no-repeat;
+  }
+  .card_button:hover {
+    background: linear-gradient(99.05deg, #5272ff 0.07%, #3754d6 106.32%);
+    border: 1px solid #E3E4E6;
+  }
+  .card_button:hover::before {
+    background: transparent url('../img/icon.png') center center no-repeat;
+  }
