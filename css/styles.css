@@ -162,6 +162,9 @@ body {
     display: flex;
     gap: 32px;
   }
+  .card_r {
+    flex-direction: row-reverse;
+  }
   .card_img {
     border-radius: 16px;
     overflow: hidden;
@@ -223,3 +226,48 @@ body {
   .card_button:hover::before {
     background: transparent url('../img/icon.png') center center no-repeat;
   }
+ 
+  .about {
+    padding: 75px;
+  }
+
+	.about_container {
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+  }
+
+	.container {
+		}
+
+	.about_text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #E3E4E6;
+  }
+
+  .about_text span {
+    font-weight: 300;
+    color: rgba(227, 228, 230, 0.55);
+  }
+
+	.about_title {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #E3E4E6;
+  }
+
+	.about_gallery {
+    flex: 0 0 50%;
+
+  }
+
+	.about_img {
+
+  }
+
+ 
+
