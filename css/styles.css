@@ -337,7 +337,11 @@ body {
     margin-top: 60px;
     font-weight: 300;
     color: rgba(227, 228, 230, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  
   .footer_copyright span {
     font-weight: 600;
     color:#E3E4E6;
