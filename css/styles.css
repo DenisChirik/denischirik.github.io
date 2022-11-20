@@ -333,6 +333,7 @@ body {
   .footer_social:not(:last-child) {
     margin-right: 55px;
   }
+  
   .footer_copyright {
     margin-top: 60px;
     font-weight: 300;
