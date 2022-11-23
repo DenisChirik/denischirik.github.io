@@ -20,7 +20,8 @@ body {
 }
 .header {
   padding: 35px 0;
-
+  position: fixed;
+  background-color: #010208;
   top: 0;
   left: 0;
   right: 0;
@@ -30,6 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 
 }
 .header_logo {
@@ -166,7 +168,7 @@ body {
     flex-direction: row-reverse;
   }
   .card_img {
-    border-radius: 16px;
+    border-radius: 9px;
     overflow: hidden;
     flex: 0 0 50%;
   }
