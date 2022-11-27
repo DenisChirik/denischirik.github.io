@@ -21,7 +21,7 @@ body {
 .header {
   padding: 35px 0;
   position: fixed;
-  background-color: #010208;
+  background-color: #14151af3;;
   top: 0;
   left: 0;
   right: 0;
@@ -73,15 +73,23 @@ body {
     align-items: center;
     justify-content: center;
   }
-
+.hero_web_developer {
+  font-size: 56px;
+  font-weight: 600;
+  color: #E3E4E6;
+  text-align: left;
+}
   .hero_title {
+    padding-top: 40px;
     font-weight: 300;
-    font-size: 56px;
+    font-size: 32px;
     line-height: 150%;
     letter-spacing: -0.02em;
     color: rgba(227, 228, 230, 0.55);
-    text-align: center;
-      }
+    text-align: left;
+    text-align: justify;
+    }
+
   .hero_title span {
     font-weight: 600;
     color: #E3E4E6;
