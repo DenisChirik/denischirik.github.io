@@ -97,11 +97,11 @@ body {
 .denis_photo {
   border: 2px solid;
   display: flex;
-  width: 200px;
-  justify-content: right;
+  width: 232px;
+  float: right;
 }
 .hero_web_developer {
-  font-size: 56px;
+  font-size: 54px;
   font-weight: 600;
   color: #e3e4e6;
   text-align: left;
@@ -110,9 +110,10 @@ body {
 }
 .hero_title {
   padding-top: 40px;
+  padding-right: 260px;
   font-weight: 300;
   font-size: 32px;
-  line-height: 150%;
+  line-height: 130%;
   letter-spacing: -0.02em;
   color: rgba(227, 228, 230, 0.55);
   text-align: left;
