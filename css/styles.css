@@ -94,11 +94,19 @@ body {
   align-items: center;
   justify-content: center;
 }
+.denis_photo {
+  border: 2px solid;
+  display: flex;
+  width: 200px;
+  justify-content: right;
+}
 .hero_web_developer {
   font-size: 56px;
   font-weight: 600;
   color: #e3e4e6;
   text-align: left;
+  max-width: 400px;
+  align-items: center;
 }
 .hero_title {
   padding-top: 40px;
