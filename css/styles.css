@@ -56,12 +56,18 @@ body {
 .menu_link:after {
   display: block;
   content: "";
-  border-bottom: solid 2px #5272ff;
+  border-bottom: solid 1px #5272ff;
   padding-bottom: 1%;
   transform: scaleX(0);
   transition: transform 200ms ease-in-out;
 }
+.menu_item_contacts {
+  border-width:1px;
+ border-style:solid;
+ border-color:#5272ff;
+ padding: 8px 13px;
 
+}
 .menu_link:hover:after {
   transform: scaleX(1.1);
 }
